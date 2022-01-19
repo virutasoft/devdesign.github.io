@@ -1,0 +1,40 @@
+/* Add here all your CSS customizations */
+
+.info-box-text .info-box-text-values {
+    color: #b93c3c;
+}
+
+.copyright .logoName {
+    color: darkcyan;
+    font-weight: bold;
+}
+
+.copyright .logoName2 {
+    color: #b93c3c;
+    font-weight: bold;
+}
+
+.bg-transparent-8-5-dark,
+.bg-transparent-9-5-dark {
+    background-color: rgba(0, 7, 10, 0.4) !important;
+}
+
+.bg-transparent-9-5-1-dark {
+    background-color: rgba(0, 7, 10, 0.64) !important;
+}
+
+span.bg-more-dark {
+    background-color: rgba(0, 7, 10, 0.74) !important;
+}
+
+@media (max-width: 768px) {
+    #intro .intro-caption .intro-title span {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse.mob-navbar-collapse-dark .navbar-nav .open .dropdown-menu li>a {
+        color: rgb(255, 255, 255) !important;
+    }
+}
